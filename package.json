@@ -1,6 +1,6 @@
 {
     "author": "kai zhu <kaizhu256@gmail.com>",
-    "description": "#### test coverage for  [angular2-jwt (v0.2.2)](https://github.com/auth0/angular2-jwt#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-angular2-jwt.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-angular2-jwt) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-angular2-jwt.svg)](https://travis-ci.org/npmtest/node-npmtest-angular2-jwt)",
+    "description": "#### basic test coverage for  [angular2-jwt (v0.2.2)](https://github.com/auth0/angular2-jwt#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-angular2-jwt.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-angular2-jwt) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-angular2-jwt.svg)](https://travis-ci.org/npmtest/node-npmtest-angular2-jwt)",
     "devDependencies": {
         "angular2-jwt": "*",
         "electron-lite": "kaizhu256/node-electron-lite#alpha",
@@ -36,5 +36,5 @@
         "start": "PORT=${PORT:-8080} utility2 start test.js",
         "test": "(set -e; export PORT=$(utility2 shServerPortRandom); utility2 test test.js)"
     },
-    "version": "0.0.1"
+    "version": "2017.4.25"
 }

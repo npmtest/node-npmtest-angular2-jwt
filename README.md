@@ -1,6 +1,6 @@
 # npmtest-angular2-jwt
 
-#### test coverage for  [angular2-jwt (v0.2.2)](https://github.com/auth0/angular2-jwt#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-angular2-jwt.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-angular2-jwt) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-angular2-jwt.svg)](https://travis-ci.org/npmtest/node-npmtest-angular2-jwt)
+#### basic test coverage for  [angular2-jwt (v0.2.2)](https://github.com/auth0/angular2-jwt#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-angular2-jwt.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-angular2-jwt) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-angular2-jwt.svg)](https://travis-ci.org/npmtest/node-npmtest-angular2-jwt)
 
 #### Helper library for handling JWTs in Angular 2+
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-angular2-jwt/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-angular2-jwt/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-angular2-jwt/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-angular2-jwt/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-angular2-jwt/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-angular2-jwt/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-angular2-jwt/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-angular2-jwt/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-angular2-jwt/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-angular2-jwt/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-angular2-jwt/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-angular2-jwt/build/coverage.html/index.html)
 
@@ -108,7 +108,8 @@
     },
     "types": "./angular2-jwt.d.ts",
     "typings": "./angular2-jwt.d.ts",
-    "version": "0.2.2"
+    "version": "0.2.2",
+    "bin": {}
 }
 ```
 
